@@ -1,11 +1,11 @@
-Setup
+SETUP
 
 python -m venv .venv
 source .venv/bin/activate     # macOS/Linux
 pip install -r requirements.txt
 
 
-Run
+RUN
 
 # Preprocess data
 python -m src.preprocess --input data/heart.csv --out data/processed.csv
@@ -25,7 +25,7 @@ python -m src.realtime_predict --model models/heart_pipeline.joblib \
 streamlit run app/app.py
 
 
-Features
+FEATURES
 
 ->Data preprocessing & cleaning
 

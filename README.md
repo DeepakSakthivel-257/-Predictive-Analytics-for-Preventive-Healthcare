@@ -28,7 +28,11 @@ streamlit run app/app.py
 Features
 
 ->Data preprocessing & cleaning
+
 ->Model training & ROC-AUC evaluation
+
 ->Confusion matrix, ROC, PR curve, feature importance plots
+
 ->CLI prediction with treatment recommendations
+
 ->Streamlit web app for interactive prediction

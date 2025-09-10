@@ -1,35 +1,3 @@
-Project Structure
-
-heart/
-├── data/
-│   ├── heart.csv              # Raw Kaggle dataset
-│   └── processed.csv          # Preprocessed dataset
-│
-├── models/
-│   └── heart_pipeline.joblib  # Trained ML pipeline (Logistic Regression)
-│
-├── plots/
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│   ├── precision_recall_curve.png
-│   └── feature_importance.png
-│
-├── src/
-│   ├── utils.py               # Helper functions (data loading, cleaning)
-│   ├── preprocess.py          # Cleans dataset & saves processed CSV
-│   ├── train.py               # Trains and saves ML model pipeline
-│   ├── evaluate.py            # Generates performance metrics & plots
-│   ├── realtime_predict.py    # CLI-based real-time prediction
-│   └── recommendations.py     # Treatment & lifestyle advice module
-│
-├── app/
-│   └── app.py                 # Streamlit web UI
-│
-├── requirements.txt
-└── README.md
-
-
-
 Setup
 
 python -m venv .venv
